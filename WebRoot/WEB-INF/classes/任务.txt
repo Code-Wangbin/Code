@@ -1,0 +1,14 @@
+1.登录
+6.分页显示
+2.添加
+3.用户删除
+4.用户信息修改
+
+5.删除选中
+7.复杂条件查询
+
+    private int totalCount; // 总记录数
+    private int totalPage ; // 总页码
+    private List<T> list ; // 每页的数据
+    private int currentPage ; //当前页码
+    private int rows;//每页显示的记录数

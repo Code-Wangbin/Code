@@ -3,7 +3,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!DOCTYPE html>
-<!-- 网页使用的语言 -->
+
 <html lang="zh-CN">
 <head>
     <!-- 指定字符集 -->

@@ -9,12 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>管理员登录</title>
 
-    <!-- 1. 导入CSS的全局样式 -->
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/login.css" rel="stylesheet">
-    <!-- 2. jQuery导入，建议使用1.9以上的版本 -->
+
     <script src="js/jquery-2.1.0.min.js"></script>
-    <!-- 3. 导入bootstrap的js文件 -->
+
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
     </script>
@@ -56,7 +56,7 @@
         </div>
     </form>
 
-    <!-- 出错显示的信息框 -->
+
     <div class="alert alert-warning alert-dismissible" role="alert">
         <button type="button" class="close" data-dismiss="alert" >
             <span>&times;</span>

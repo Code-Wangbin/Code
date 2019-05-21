@@ -1,16 +1,10 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: 26711
-  Date: 2019/3/29
-  Time: 17:06
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
-<!-- 网页使用的语言 -->
+
 <html lang="zh-CN">
 <head>
-    <!-- 指定字符集 -->
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">

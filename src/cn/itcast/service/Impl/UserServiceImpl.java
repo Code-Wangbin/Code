@@ -20,7 +20,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public PageBean<User> findUserByPage(String _currentPage, String _rows, Map<String, String[]> condition) {
         PageBean<User> pb = new PageBean<>();
-        //int currentPage ; //当前页码
+        //int currentPage ; 
         int currentPage = Integer.parseInt(_currentPage);
         pb.setCurrentPage(currentPage);
 
@@ -28,15 +28,15 @@ public class UserServiceImpl implements UserService {
         int rows = Integer.parseInt(_rows);
         pb.setRows(rows);
 
-        //int totalCount; // 总记录数
+        //int totalCount; 
         int totalCount = dao.findTotalCount(condition);
         pb.setTotalCount(totalCount);
 
-        //int totalPage ; // 总页码
+        //int totalPage ; 
         int totalPage = (int)Math.ceil(totalCount * 1.0 / rows);
         pb.setTotalPage(totalPage);
 
-        //List<T> list ; // 每页的数据
+        //List<T> list ;
         int start = (currentPage - 1) *rows;
         List<User> list = dao.findUserList(start,rows,condition);
         pb.setList(list);
